@@ -1,0 +1,29 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MyClockStyle">
+        
+        <item name="clock">@drawable/blank_clock</item>
+        <item name="minute">@drawable/minute_hand</item>
+        <item name="hour">@drawable/hour_hand</item>
+        <item name="second">@drawable/sec_hand</item>
+        <item name="center_clock">@drawable/hand_center</item>
+    </style>
+
+</resources>

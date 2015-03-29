@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyClockStyleable">
+        <attr name="clock" format="reference"/>
+        <attr name="hour" format="reference"/>
+        <attr name="minute" format="reference"/>
+        <attr name="second" format="reference"/>
+        <attr name="center_clock" format="reference"/>
+    </declare-styleable>
+</resources>
